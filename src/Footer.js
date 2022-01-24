@@ -1,5 +1,4 @@
 import React from "react";
-import Firstrow from "./Firstrow";
 
 export default class Footer extends React.Component {
   constructor(props) {
@@ -14,11 +13,14 @@ export default class Footer extends React.Component {
             tableLayout: "fixed",
             width: "100%",
             wordWrap: "break-word",
-            // border: "1px solid",
           }}
         >
           <tbody>
-            <Firstrow />
+            <tr>
+              <td style={{ width: "500px" }} colSpan={"2"}>
+                <b>Служба поддержки работает круглосуточно</b>
+              </td>
+            </tr>
             <tr>
               <td style={{ width: "200px" }}>Москва</td>
               <td style={{ width: "200px" }}>

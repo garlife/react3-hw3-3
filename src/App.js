@@ -46,11 +46,9 @@ function App() {
         width: "100%",
         height: "100%",
         minHeight: "580px",
-        // border: "1px solid",
         display: "flex",
         flexWrap: "wrap",
         alignContent: "space-between",
-        // backgroundColor: "hsl(0, 0%, 90%)",
         transition: " background-color 300ms",
       }}
     >
@@ -123,7 +121,7 @@ function App() {
                     // display: "inline-block",
                   }}
                 >
-                  <div style={{ alignSelf: "center" }}>
+                  <div style={{ alignSelf: "center",  }}>
                     <HeaderContent />
                   </div>
                   <div>
